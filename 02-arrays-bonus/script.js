@@ -19,3 +19,9 @@ for (i = 0; i < teachers.length; i++) {
 console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
+for (i = 0; i < teachers.length; i++) {
+  if (teachers[i] === "Ed") {
+    teachers.splice(1, 1);
+  }
+}
+console.log(teachers);
